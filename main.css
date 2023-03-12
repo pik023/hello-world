@@ -1,0 +1,125 @@
+body {
+
+    
+
+}
+
+div {  
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.google_con {
+    height: 200px;
+    display: flex;
+    width: 350px;
+    margin-top: 100px; 
+}
+
+.header {
+    display: flex;
+    list-style-type: none;
+}
+
+ .txt_image {
+    margin-right: 10px;
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 13px/27px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(0,0,0, 0.75);
+}
+
+.advance {
+    text-decoration: none;
+    margin-right: 20px;
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: arial, sans-serif;
+    font-size: 13px/27px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color: rgba(0,0,0, 0.75);
+}
+
+.input_con {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    max-height: 160px;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
+
+.search {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    border-color:rgba(0,0,0, 0.15)
+}
+
+.submit {
+    display: flex;
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border: 0.5px solid rgba(0,0,0, 0.10);
+    border-radius: 5px;
+}
+
+.advance:hover {
+    text-decoration: underline;
+}
+
+.txt_image:hover {
+    text-decoration: underline;
+}
+
+.submit:hover {
+    border: solid 1px rgba(0,0,0, 0.15);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.19);
+    background-color: #f8f9fa;
+}
+
+.submit:active {
+    border-color:blue;
+}
+
+.search:hover {
+    border: solid 1px rgba(0,0,0, 0.15);
+    border-radius: 25px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.19);
+    
+}
